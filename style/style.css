@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5e9e2;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #0b0014;
+    margin-bottom: 20px;
+    cursor: context-menu;
+}
+
+#loginDiv {
+    position: relative;
+    margin: 0 auto;
+    top: 15vw;
+    text-align: center;
+    background-color: #e3b5a4;
+    max-width: 250px;
+    padding: 40px 0;
+    height: 270px;
+    border-radius: 30px;
+}
+
+#registerDiv {
+    position: relative;
+    margin: 0 auto;
+    top: 15vw;
+    text-align: center;
+    background-color: #e3b5a4;
+    max-width: 250px;
+    padding: 40px 0;
+    height: 350px;
+    border-radius: 30px;
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #212d40;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input {
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+form button {
+    width: 200px;
+    height: 40px;
+    background-color: #d44d5c;
+    border: #0b0014;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+form button:hover {
+    background-color: #773344;
+    cursor: pointer;
+}
